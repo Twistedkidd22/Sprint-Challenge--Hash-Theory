@@ -4,7 +4,6 @@ def reconstruct_trip(tickets):
   route = []
 
   for t in tickets:
-    print(t)
     ht[t[0]] = t[1]
 
  
